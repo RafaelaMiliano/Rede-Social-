@@ -13,7 +13,7 @@ export const login = () => {
     <div class = "error-none" id="email-error">E-mail e obrigatorio ou invalido</div>
     
     <label class="config-titulo">Senha:</label>
-    <input type="password" class="key" placeholder="Digite sua senha.">
+    <input type="password" class="key" placeholder="Digite sua senha">
     <div class="error-none" id="password-error">Senha esta invalida e é obrigatoria </div>
           
     <div class="send-container"> 
@@ -22,11 +22,8 @@ export const login = () => {
     
     <div class="social-container">
       <button id="google">
-        <img src="../../../Imagens/icon-google01.png"></img>             
-        <h1>Login com Google</h1>
       </button>
-      <p>Esqueceu a senha?<a href="paranaoesquecer.com">Redefinir senha</a></p>
-      <p>Não tem uma conta?<a href="/#register">Cadastre-se</a></p>
+      <p>Não tem uma conta? <a href="/#register">Cadastre-se</a></p>
     </div>
     `;
 

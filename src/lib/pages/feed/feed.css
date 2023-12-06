@@ -36,9 +36,9 @@
   padding: 2rem;
   width: 100%;
   gap: 1rem;
-  border-radius: 15px;
-  background: #a68003e1;
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 80px;
+  background: #A55B68;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25) inset;
 }
 
 .perfil-container {
@@ -52,10 +52,12 @@
 }
 
 #post {
-  padding: 15px;
-  border-radius: 20px;
-  background: #bcbf65;
+  padding: 20px;
+  border-radius: 80px;
+  background: #F2D57E;
   outline: transparent;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button-container {

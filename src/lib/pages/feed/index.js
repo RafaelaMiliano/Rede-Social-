@@ -11,16 +11,12 @@ import "./feed.css";
 export const feed = () => {
   const container = document.createElement("section");
   container.innerHTML = `
-        <div class="container">
-          <img class="#" src="${iconFeed}" href="#"></img>       
-          <img class="#" src="${iconNoticias}" href="#"></img> 
-          <img class="#" src="${iconArtigos}" href="#"></img> 
-      </div>
+        
       <div class="container-pai">
        <div id="input-container">
         <div class="perfil-container">          
           <img src="${iconProfile}" alt="perfil"> </img >
-          <h3>Name<h3>
+          <h3>Nome<h3>
         </div> 
         
         <textarea name="post" id="post" rows="4" cols="50" placeholder="Publicação..."></textarea>
@@ -50,7 +46,7 @@ export const feed = () => {
     posts.forEach((post) => {
       template += `
         <div class="feed">
-          <h3>name</h3>
+          <h3>nome</h3>
           <div type="text" id="post-show-text">${post.textOfPost}</div> 
           <div type="date"> ${post.dateOfPost}</div>
           <div class="action-container">
@@ -76,7 +72,7 @@ export const feed = () => {
         console.log(e);
         const id = e.target.parentNode.dataset.postid;
         console.log(e.target.parentNode);
-        const novoTexto = "Novo texto Emi" //pegar o elemento do container.value
+        const novoTexto = "" //pegar o elemento do container.value
         atualizarPosts(id, novoTexto);
 
       });
